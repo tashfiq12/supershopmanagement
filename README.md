@@ -26,3 +26,4 @@ page.If we click on the print button then it will either print or save as pdf. C
 * Django
 * Bootstrap
 * JAVASCRIPT
+* MYSQL DATABASE
