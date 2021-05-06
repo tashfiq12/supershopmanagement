@@ -1,4 +1,4 @@
-# SUPERSHOPMANAGEMENT
+# SUPER SHOP MANAGEMENT
 
 ## Setup
 At first clone the repository
