@@ -1,8 +1,8 @@
 # SUPERSHOPMANAGEMENT
 
 ## Setup
-> At first clone the repository
+At first clone the repository
 ```
-https://github.com/tashfiq12/supershopmanagement.git
+ git clone https://github.com/tashfiq12/supershopmanagement.git
 cd supershopmanagement
 ```
