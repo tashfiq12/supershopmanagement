@@ -10,6 +10,10 @@ Then install dependencies
 ```
  pip install -r requirements.txt
 ```
+Then migrate the tables and database, I used mysql db in my project .
+```
+ python manage.py migrate
+```
 Then run the project
 ```
  cd supershopmanagement
