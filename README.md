@@ -6,7 +6,7 @@ At first clone the repository
  git clone https://github.com/tashfiq12/supershopmanagement.git
  cd supershopmanagement
 ```
-Then install dependencies
+At first install pip,check pip version, then  install dependencies
 ```
  pip install -r requirements.txt
 ```
