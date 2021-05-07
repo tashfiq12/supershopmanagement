@@ -14,15 +14,15 @@
             {% csrf_token %}  
             <div class="form-group">
                <label for="customername">Customer Name</label>
-               <input type="text" class="form-control" id="customername" name="customername"  placeholder="Enter Customer Name">
+               <input type="text" class="form-control" id="customername" name="customername" required  placeholder="Enter Customer Name">
             </div>
             <div class="form-group">
                <label for="customerphone">Customer Phone</label>
-               <input type="text" class="form-control" id="customerphone" name="customerphone" placeholder="Customer phone no">
+               <input type="text" class="form-control" id="customerphone" name="customerphone" required placeholder="Customer phone no">
             </div>
             <div class="form-group">
                <label for="customeremail">Customer Email</label>
-               <input type="text" class="form-control" id="customeremail" name="customeremail" placeholder="Customer Email">
+               <input type="text" class="form-control" id="customeremail" name="customeremail" required placeholder="Customer Email">
             </div>
             <table class="table table-striped table-bordered table-sm">
                <thead class="thead-dark">
@@ -54,7 +54,7 @@
                </tbody>
             </table>
             <br/>
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit Order</button>
          </form>
       </div>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
